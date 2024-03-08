@@ -13,6 +13,7 @@ import SwiftUI
     モディファイアのルール : 上から実行される。同じ modifier がある場合は上の方が優先される
  */
 struct Objects: View {
+    // @State : struct 内で宣言されたものは、初期化時の値を利用することは出来るが値を変更することができない。しかし,@State 修飾子をつけることで 変更 が可能となる。また、値が変更された時、自動的にView 内で UI の見た目が更新される(再描画)。
     @State var inputText = ""
     @State var isOn = true
     
