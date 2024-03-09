@@ -12,7 +12,11 @@ struct Learn_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            Objects()
+//            Objects()
+//            TaxCalculator()
+//            Dice()
+//            EnvironmentObject_FirstView().environmentObject(Pets())
+            AppStorage_FirstView()
         }
     }
 }
